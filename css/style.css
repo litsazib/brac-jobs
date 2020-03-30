@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'NeurialGrotesk-Bold';
+  src: url("../fonts/NeurialGrotesk-Bold.otf");
+  src: local('☺'), url("../fonts/NeurialGrotesk-Bold.otf") format('woff'), url("../fonts/NeurialGrotesk-Bold.otf") format('truetype');
+}
+@font-face {
+  font-family: 'NeurialGrotesk-BoldItalic';
+  src: url("../fonts/NeurialGrotesk-BoldItalic.otf");
+  src: local('☺'), url("../fonts/NeurialGrotesk-BoldItalic.otf") format('woff'), url("../fonts/NeurialGrotesk-BoldItalic.otf") format('truetype');
+}
+@font-face {
+  font-family: 'NeurialGrotesk-Extrabold';
+  src: url("../fonts/NeurialGrotesk-Extrabold.otf");
+  src: local('☺'), url("../fonts/NeurialGrotesk-Extrabold.otf") format('woff'), url("../fonts/NeurialGrotesk-Extrabold.otf") format('truetype');
+}
+@font-face {
+  font-family: 'NeurialGrotesk-ExtraboldItalic';
+  src: url("../fonts/NeurialGrotesk-ExtraboldItalic.otf");
+  src: local('☺'), url("../fonts/NeurialGrotesk-ExtraboldItalic.otf") format('woff'), url("../fonts/NeurialGrotesk-ExtraboldItalic.otf") format('truetype');
+}
+@font-face {
+  font-family: 'NeurialGrotesk-Italic';
+  src: url("../fonts/NeurialGrotesk-Italic.otf");
+  src: local('☺'), url("../fonts/NeurialGrotesk-Italic.otf") format('woff'), url("../fonts/NeurialGrotesk-Italic.otf") format('truetype');
+}
+@font-face {
+  font-family: 'NeurialGrotesk-Medium';
+  src: url("../fonts/NeurialGrotesk-Medium.otf");
+  src: local('☺'), url("../fonts/NeurialGrotesk-Medium.otf") format('woff'), url("../fonts/NeurialGrotesk-Medium.otf") format('truetype');
+}
+@font-face {
+  font-family: 'NeurialGrotesk-MediumItalic';
+  src: url("../fonts/NeurialGrotesk-MediumItalic.otf");
+  src: local('☺'), url("../fonts/NeurialGrotesk-MediumItalic.otf") format('woff'), url("../fonts/NeurialGrotesk-MediumItalic.otf") format('truetype');
+}
+@font-face {
+  font-family: 'NeurialGrotesk-Regular';
+  src: url("../fonts/NeurialGrotesk-Regular.otf");
+  src: local('☺'), url("../fonts/NeurialGrotesk-Regular.otf") format('woff'), url("../fonts/NeurialGrotesk-Regular.otf") format('truetype');
+}
+
+
+
+
+*:focus {
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.fix {
+  overflow: hidden;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.center {
+  text-align: center;
+}
+.pc {
+  display: block;
+}
+.sp {
+  display: none;
+}
+body {
+  font-family: "NeurialGrotesk-Regular", sans-serif;
+  font-weight: 500;
+}
+.fStyle {
+  font-family: 'NeurialGrotesk-Bold';
+}
