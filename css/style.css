@@ -3,45 +3,21 @@
   src: url("../fonts/NeurialGrotesk-Bold.otf");
   src: local('☺'), url("../fonts/NeurialGrotesk-Bold.otf") format('woff'), url("../fonts/NeurialGrotesk-Bold.otf") format('truetype');
 }
-@font-face {
-  font-family: 'NeurialGrotesk-BoldItalic';
-  src: url("../fonts/NeurialGrotesk-BoldItalic.otf");
-  src: local('☺'), url("../fonts/NeurialGrotesk-BoldItalic.otf") format('woff'), url("../fonts/NeurialGrotesk-BoldItalic.otf") format('truetype');
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
 }
-@font-face {
-  font-family: 'NeurialGrotesk-Extrabold';
-  src: url("../fonts/NeurialGrotesk-Extrabold.otf");
-  src: local('☺'), url("../fonts/NeurialGrotesk-Extrabold.otf") format('woff'), url("../fonts/NeurialGrotesk-Extrabold.otf") format('truetype');
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
 }
-@font-face {
-  font-family: 'NeurialGrotesk-ExtraboldItalic';
-  src: url("../fonts/NeurialGrotesk-ExtraboldItalic.otf");
-  src: local('☺'), url("../fonts/NeurialGrotesk-ExtraboldItalic.otf") format('woff'), url("../fonts/NeurialGrotesk-ExtraboldItalic.otf") format('truetype');
+.clearfix {
+  display: inline-block;
 }
-@font-face {
-  font-family: 'NeurialGrotesk-Italic';
-  src: url("../fonts/NeurialGrotesk-Italic.otf");
-  src: local('☺'), url("../fonts/NeurialGrotesk-Italic.otf") format('woff'), url("../fonts/NeurialGrotesk-Italic.otf") format('truetype');
-}
-@font-face {
-  font-family: 'NeurialGrotesk-Medium';
-  src: url("../fonts/NeurialGrotesk-Medium.otf");
-  src: local('☺'), url("../fonts/NeurialGrotesk-Medium.otf") format('woff'), url("../fonts/NeurialGrotesk-Medium.otf") format('truetype');
-}
-@font-face {
-  font-family: 'NeurialGrotesk-MediumItalic';
-  src: url("../fonts/NeurialGrotesk-MediumItalic.otf");
-  src: local('☺'), url("../fonts/NeurialGrotesk-MediumItalic.otf") format('woff'), url("../fonts/NeurialGrotesk-MediumItalic.otf") format('truetype');
-}
-@font-face {
-  font-family: 'NeurialGrotesk-Regular';
-  src: url("../fonts/NeurialGrotesk-Regular.otf");
-  src: local('☺'), url("../fonts/NeurialGrotesk-Regular.otf") format('woff'), url("../fonts/NeurialGrotesk-Regular.otf") format('truetype');
-}
-
-
-
-
 *:focus {
   outline: none;
 }
@@ -77,10 +53,44 @@ ul {
 .sp {
   display: none;
 }
-body {
-  font-family: "NeurialGrotesk-Regular", sans-serif;
-  font-weight: 500;
+.header-section {
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
-.fStyle {
-  font-family: 'NeurialGrotesk-Bold';
+.header-section .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 23px 0px;
+}
+.header-section .header .site-logo {
+  padding-left: 4%;
+}
+.header-section .header .site-logo img {
+  max-width: 100%;
+}
+.header-section .header .menu {
+  margin-right: 2%;
+}
+.header-section .header .menu ul li {
+  display: inline-block;
+}
+.header-section .header .menu ul li a {
+  padding: 10px 20px;
+  color: #333;
+}
+.header-section .header .menu ul li a:hover {
+  opacity: 0.3;
+  translate: 0.3s;
+}
+.header-section .header .menu ul .TryFree {
+  border: 1px solid;
+  border-radius: 100px;
+  padding: 14px 5px;
+}
+.header-section .header .menu ul .TryFree a {
+  color: #ff0000;
 }

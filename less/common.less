@@ -4,7 +4,21 @@
   src: local('☺'), url("../fonts/NeurialGrotesk-Bold.otf") format('woff'), url("../fonts/NeurialGrotesk-Bold.otf") format('truetype');
 }
 
-
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.clearfix {
+  display: inline-block;
+}
 
 
 

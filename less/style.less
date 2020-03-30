@@ -1,8 +1,46 @@
 // out: ../css/style.css, sourcemap: true, compress: false
 @import "common.less";
 
-
-
-.fStyle {
-  font-family: 'NeurialGrotesk-Bold'
+.header-section {
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 23px 0px;
+    .site-logo {
+      padding-left: 4%;
+      img {
+        max-width: 100%;
+      }
+    }
+    .menu {
+      margin-right: 2%;
+      ul {
+        li {
+          display: inline-block;
+          a {
+            padding: 10px 20px;
+            color: #333;
+            &:hover {
+              opacity: 0.3;
+              translate: 0.3s;
+            }
+          }
+        }
+        .TryFree {
+          border: 1px solid;
+          border-radius: 100px;
+          padding: 14px 5px;
+          a {
+            color: #ff0000;
+          }
+        }
+      }
+    }
+  } 
 }
