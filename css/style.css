@@ -207,6 +207,7 @@ ul {
   padding: 20px;
   width: 20%;
   min-height: 218px;
+  border-radius: 3px;
 }
 .company-section .container .inner-container .cards-group .card img {
   max-width: 100%;
