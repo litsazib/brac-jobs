@@ -227,7 +227,7 @@ ul {
 .feature-section .container .inner-container .feature-box {
   border-radius: 10px;
   background-color: #fff;
-  width: 900px;
+  max-width: 900px;
   margin: 30px auto;
 }
 .feature-section .container .inner-container .feature-box .tab-switch {
@@ -283,4 +283,7 @@ ul {
 }
 .feature-section .container .inner-container .feature-box .tab-switch .tabView-display .feature-thumb {
   width: 50%;
+}
+.feature-section .container .inner-container .feature-box .tab-switch .tabView-display .feature-thumb img {
+  max-width: 100%;
 }
