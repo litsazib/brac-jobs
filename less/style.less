@@ -5,7 +5,6 @@
   background-image: url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   .header {
     display: flex;
     align-items: center;
@@ -33,7 +32,7 @@
           }
         }
         .TryFree {
-          border: 1px solid;
+          border: 1px solid #7369ff;
           border-radius: 100px;
           padding: 14px 5px;
           a {
@@ -43,4 +42,207 @@
       }
     }
   } 
+  .banner {
+    margin-top: 50px;
+    .banner-caption {
+      width: 50%;
+      padding-left: 4%;
+      box-sizing: border-box;
+      h1 {
+        font-size: 50px;
+      }
+      span {
+        color: #7369ff;
+      }
+      p {
+        color: #656c8c;
+        margin-top: 40px;
+      }
+      .btnGetStart {
+        padding: 20px 30px;
+        margin-top: 34px;
+        display: inline-block;
+        border-radius: 40px;
+        color: #fff;
+        background: rgb(183,133,255);
+        background: linear-gradient(90deg, #b785ff 0%, #5d66ff 92%);
+        box-shadow: 2px 7px 11px 0px #c5c5bc6b;
+        span {
+          margin-left: 30px;
+        }
+        &:hover {
+          opacity: 0.7;
+          transition: 0.3s;
+        }
+      }
+    }
+    .banner-img {
+      width: 50%;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+.live-section {
+  .live-inner {
+    display: flex;
+    .live-content-img {
+      width: 50%;
+      margin-top: -131px;
+      img {
+        max-width: 100%;
+      }
+    }
+    .live-txt-content {
+      width: 50%;
+      margin-top: 20px;
+      padding-left: 60px;
+      box-sizing: border-box;
+      h1 {
+        font-size: 35px;
+      }
+      p {
+        margin: 35px 0px 50px;
+        color: #333;
+      }
+      .count-Part {
+        display: flex;
+        width: 35%;
+        justify-content: space-between;
+        font-size: 15px;
+        .Companies {
+          color: #5d66ff;
+          line-height: 23px;
+          span {
+            font-size: 30px;
+          }
+        }
+        .Recruitment {
+          line-height: 23px;
+          span {
+            font-size: 30px;
+          }
+          color: #b785ff;
+        }
+      }
+    }
+  }
+}
+
+.company-section {
+  .container {
+    .inner-container {
+      max-width: 970px;
+      margin: 0 auto;
+      h1 {
+        font-size: 35px;
+        color: #333;
+      }
+      span {
+        color: #be6ae1;
+      }
+      .card-subtitle {
+        color: #656c8c;
+        margin: 30px 0;
+      }
+      .cards-group {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 10px 0px 170px;
+        .card {
+          background-color: #fafafd;
+          text-align: center;
+          padding: 20px;
+          width: 20%;
+          min-height: 218px;
+          img {
+            max-width: 100%;
+          }
+          p {
+            color: #4c4d55; 
+          }
+          &:first-child {
+            margin: 0px;
+          }
+          
+          
+          &:last-child{
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.feature-section {
+  background-image: url('../images/Keyfeaturebg.png');
+  .container {
+    .inner-container {
+      .feature-box {
+        border-radius: 10px;
+        background-color: #fff;
+        background-color: #fff;
+        width: 900px;
+        margin: 30px auto;
+        .tab-switch {
+          text-align: center;
+          box-shadow: -1px 5px 5px 1px rgba(239, 239, 239, 0.92);
+          .tab {
+            display: flex;
+            justify-content: space-around;
+            width: 85%;
+            margin: 0 auto 25px;
+            border-bottom: 1px solid #f7f7f7;
+            padding-bottom: 12px;
+            button {
+              padding: 15px 30px;
+              border-radius: 40px;
+              margin-top: 30px;
+              background-color: transparent;
+              color: #a5a7b3;
+              outline: none;
+              border: none;
+            }
+            button.active {
+              background: #ecebff;
+              color: #354fff;
+            }
+          }
+          .tabView-display {
+            padding: 0px 20px;
+            .feature-content {
+              width: 50%;
+              li.list-item {
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 30px;
+                .icon {
+                  margin-right: 20px;
+                }
+                .txt-data {
+                  text-align: left; 
+                  h3 {
+                    margin-top: 10px;
+                    color: #40414b;
+                    font-size: 17px;
+                  }
+                  p {
+                    color: #a5a7b3;
+                    font-size: 15px;
+                  }
+                }
+              }
+            }
+            .feature-thumb {
+              width: 50%;
+            }
+          }
+        }
+      }
+    }  
+  }
 }
